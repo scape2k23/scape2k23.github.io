@@ -1,273 +1,258 @@
-@media only screen and (max-width: 680px){
-    .navbar{
-        background-color: white;
-        color: black;
+@media only screen and (max-width: 1280px){
+    body{
+        background-color:#03093c;
+        color: aliceblue;
     }
-    .navbar .logo{
-        width: 100%;
-        height: 100%;
-    }
-    .navbar .logo img{
-        max-width: 100%;
-        height: 100%;
-    }
-    .navbar .navlist{
-        width: 20%;
-        height: 100%;   
-    }
-    .navbar .logo .logo1{
+    .logo1{
         display: none;
     }
-    .navbar .logo .logo2{
+    .logo2{
         display: inline;
-        background-color: white;
-    }
-    .navbar .menu-btn i{
-        color:black;
-        font-size: 30px;
-        margin: 20px;
-       
-        cursor: pointer;
     }
     .navlist ul{
         position: fixed;
-        top: 100px;
+        top: 12vh;
         left: -100%;
-        height: 100%;
+        bottom: 0;
+        height: 100vh;
         width: 100%;
         text-align: center;
         display: block;
         transition: all 0.3s ease;
         background-color: black;
     }
-    h6{
-        display: none;
+   .navbar{
+        width: 100%;
+        height: 12vh;
+        background-color: white;
     }
-    .banner{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-        margin: 0px; 
+    .navlogo{
+        height: 100%;
+        width: 60%;
     }
-    .box{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content:center;
-        width:80%;
-        height:auto;
-        padding: 10px;
+    .navlist{
+        height: 100%;
+        width: 20%;
+    }
+    .navlist .menu-btn i{
+        color: black;
+        padding: 20px;
+    }
+    .Main{
         margin-top: 20px;
     }
-
-    .banner .tit{
-        margin: 40px;
-        width:100%;
-        height:auto;
-    }
-    .date{
-        font-size:25px;
-    }
-    .button {
-        margin:20px;
-    }
-    .qr{
-        height: 100px;
-        width: 100px;
-    }
-    .copy{
-        background-color: #fff;
-        height:50px;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        margin-top:20px;
-    }
-    .events{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-       margin: 0%;
-    }
-    .event{
-        width:80%;
-        height:auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-
-    }
-    .rv{
-        width:80%;
-        height:auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column-reverse;
-
-    }
-    .left{
+    .navlist ul{
+        height: 100%;
         width: 100%;
     }
-    .right{
-        display: flex;
-        flex-direction: column;
-        align-items:flex-start;
-        justify-content:space-between;
+    .space{
         width: 100%;
-        flex-wrap: wrap;
-        
+        height: 12vh;
     }
-    .evn{
-        padding-top: 10px;
-        padding-left: 0px;
-        font-size: 18px;
+    .banner{
+        height:90%;
+        margin-bottom: 0px;
     }
-    .left img {
+    .boxes{
         width: 100%;
         height: 100%;
+        justify-content: space-between;
+    }
     
+    .leftbox,.rightbox{
+        flex-direction:row;
+        width: 0%;
     }
-    .right li {
-        
-        list-style: upper-roman;
-        list-style-position: outside;
-        padding-left: 20px;
-        padding-right: 0px;
-        padding-bottom:10px;
-        color: #fff;
-        font-weight: normal;
-        font-size: 15px;
-        
-    }
-    .head{
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        
-        font-size:20px;
-    }
-    .headd{
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        font-size:25px;
-        padding-bottom: 0%;
-    }
-    .en{
+    .leftbox p,.rightbox p{
         display: none;
     }
-    .Head{
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        font-size: 23px;
-    }
-    .cards{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: auto;
-        
-    }
-    .contactus{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .contactus h1{
-        color: #040c3c;
-        font-size: 20px;
-        padding: 0px;
-        margin: 20px;
+    .leftevent,.rightevent{
        
-        font-weight: bold;
+        display: none;
     }
-    .about{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height:auto;
-        width:100%;
-    }
-    .card{
-        height: 200px;
-        width: 250px;
-        background-color: #fff;
-        border-radius:20px ;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        display: flex;
-        
-    }
-    .cbar{
+    .centerbox{
         height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        
+       width: 80%;
+       display: flex;
+      
+       justify-content: space-around;
+        margin:0px;
+       
     }
-    .per{
-        margin-bottom: 20px;
-        height: 100px;
-        margin-left: 0;
-        width:200px;
-        background-color: #040c3c;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content:center ;
-        
-        border-radius: 20px;
-    }
-    .heading p{
-        font-size: 20px;
-        
-    }
-    .cls{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height:auto;
-        width:80%;
-        margin-bottom: 30px;
-    }
-    .heading{
-        margin-top: 30px;
-        margin-bottom: 30px;
-        
-        width:100%;
-        display: flex;
-        align-items: center;
-        background-color: #040c3c;
-        justify-content:space-between;
-    }
-    .fine{
-        font-size:medium;
-        padding-left: 20px;
-        font-weight: normal;
-        color:white
-    }
-    .cls img{
+    .qrc{
         display: block;
-        width: 200px;
-        height: 200px;
+        width: 50%;
+        margin: 5px;
     }
-    .ji{
+    .Heading{
+        flex-direction: column;
+        display: flex;
+
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    .bigHeading{
+        flex-direction: column;
+        display: flex;
+        
+        align-items: center;
+        font-size: 35px;
         margin-bottom:30px;
-        margin-top:20px;
     }
+    .reg{
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        transition: all 0.5s ease;
+        margin: 0;
+    }
+    .coord{
+        height:auto;
+        
+        align-items: center;
+        margin:0px
+    }
+    .cor{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .leftcor,.rightcor{
+        width: 100%;
+        margin:20px;
+        align-items: center;
+        justify-content: center;
+        
+        padding:20px;
+    }
+    .hi{
+        
+        margin-top: 0;
+        font-size: 20px;
+    }
+    .NormalHead{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        flex-direction: column;
+    }
+    .events{
+        height: auto;
+        width:100%;
+      
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .ev{
+        margin: 20px 0px;
+        color: #ca9e4b;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .image{
+        width: 80%;
+        height: auto;
+    
+    }
+    .content{
+        width: 80%;
+        height: auto;
+     
+    }
+    .image img{
+        width: 100%;
+    }
+    .content li{
+        list-style-position: inside;
+        list-style-type:disc;
+        margin: 10px 20px;
+        
+    }
+    .box{
+        margin-bottom: 0px;
+    }
+
+    .Staff{
+        width: 80%;
+        height: auto;
+        margin: 0px;
+        justify-content: center;
+        margin-bottom: 20px;
+        
+    }
+    .staff{
+        margin: 0px;
+        
+    }
+    .SName{
+        font-size: medium;
+    }
+    .Staff img{
+        width: 100%;
+        height: 170px;
+        
+    }
+ .bigBox{
+  
+    flex-direction: column;
+ }
+ .stud{
+    height: auto;
+    width:40%;
+  
+    margin: 0%;
+   
+ }
+ .stud img{
+    height: 100px;
+    width:100px;
+ }
+ .Student{
+    flex-direction:row;
+    width: 100%;
+ 
+    margin: 0%;
+    
+ }
+ .Sname{
+    margin-top:10px;
+    text-align: center;
+    font-size: 15px;
+ }
+ .ema{
+    font-size: large;
+ }
+ .hin{
+    margin-top: 0px;
+ }
+ .side{
+    margin-bottom:20px;
+    font-size: 12px;
+ }
+ .contactbox{
+    flex-direction: column;
+  
+    justify-content: center;
+    gap: 20px;
+    
+ }
+ .cbox{
+    padding: 10px;
+    width: 80%;
+ }
+ .cname{
+    font-size: small;
+    color: black;
+ }
+ .contact{
+    height: 350px;
+
+ }
 }
